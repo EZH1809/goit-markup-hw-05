@@ -492,6 +492,10 @@ body {
   min-height: 584px;
   border-radius: 4px;
   background-color: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /*======/MODALWINDOW STYLES======*/
 WINDOW
