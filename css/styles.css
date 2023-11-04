@@ -497,5 +497,29 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 8px;
+  line-height: 0;
+  cursor: pointer;
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.modal-close-btn-icon {
+  fill: #2e2f42;
+}
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+  fill: #ffffff;
+}
+.modal-paragraf {
+}
 /*======/MODALWINDOW STYLES======*/
-WINDOW
