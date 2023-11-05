@@ -511,8 +511,14 @@
                     <label class="rewiew-form-field-lable" for="user-first-name">
                         Name
                     </label>
-                    <input class="rewiew-form-field" type="text" name="user_first_name" id="user-first-name" required
-                        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" title="Kirill" />
+                    <div class="rewiew-form-imput-wrapper">
+                        <input class="rewiew-form-field" type="text" name="user_first_name" id="user-first-name"
+                            required pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']" title="Kirill" />
+                        <svg class="rewiew-form-field-icon">
+                            <use href="./images/icons.svg#icon-person" width="18" height="24"></use>
+                        </svg>
+                    </div>
+
                 </div>
                 <div class="rewiew-form-field-wrapper">
                     <label class="rewiew-form-field-lable" for="user-phone">Phone</label>
