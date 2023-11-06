@@ -608,5 +608,12 @@ body {
   outline-color: transparent;
   outline-offset: 4px;
 }
-
+.rewiew-form-own-checkbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
 /*======/REVIEW FORM STYLES======*/
