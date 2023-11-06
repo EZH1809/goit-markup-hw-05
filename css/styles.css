@@ -636,4 +636,24 @@ body {
   *.rewiew-form-checkbox-lable
   .rewiew-form-own-checkbox {
 }
+.rewiew-form-checkbox:focus
+  *.rewiew-form-checkbox-lable
+  .rewiew-form-own-checkbox {
+  outline: 2px solid #4d5ae5;
+}
+.rewiew-form-button {
+  width: 105px;
+  height: 24px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+}
 /*======/REVIEW FORM STYLES======*/
