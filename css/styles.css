@@ -610,7 +610,7 @@ body {
 /*======REVIEW FORM STYLES======*/
 
 .rewiew-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .rewiew-form-field-lable {
   display: block;
@@ -710,7 +710,7 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rewiew-form-checkbox:checked
-  + .rewiew-form-checkbox-label
+  +.rewiew-form-checkbox-label
   .rewiew-form-own-checkbox {
   border: none;
   background-color: #404bbf;
