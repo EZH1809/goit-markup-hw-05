@@ -524,12 +524,12 @@
             </p>
             <form class="rewiew-form">
                 <div class="rewiew-form-field-wrapper">
-                    <label class="rewiew-form-field-lable" for="user-first-name">
+                    <label class="rewiew-form-field-lable" for="user-name">
                         Name
                     </label>
                     <div class="rewiew-form-imput-wrapper">
-                        <input class="rewiew-form-field" type="text" name="user_first_name" id="user-first-name"
-                            required pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']" title="Kirill" />
+                        <input class="rewiew-form-field" type="text" name="user_name" id="user-name" required
+                            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']" title="Kirill" />
                         <svg class="rewiew-form-field-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
@@ -557,22 +557,21 @@
                 </div>
                 <div class="rewiew-form-field-wrapper">
                     <label class="rewiew-form-field-lable" for="user-comment">Comment</label>
-                    <textarea class="rewiew-form-message" name="user_comment" id="user-comment"
+                    <textarea class="rewiew-form-message" name="user-comment" id="user-comment"
                         placeholder="Text input"></textarea>
                 </div>
                 <div class="rewiew-form-checkbox-wrapper">
-                    <input class="rewiew-form-checkbox visually-hidden" type="checkbox" name="user_policy" value="true"
-                        id="user-policy" required />
-                    <label class="rewiew-form-checkbox-lable" for="user-policy">
+                    <input class="rewiew-form-checkbox visually-hidden" type="checkbox" name="user-privacy" value="true"
+                        id="user-privacy" required />
+                    <label class="rewiew-form-checkbox-lable" for="user-privacy">
                         <span class="rewiew-form-own-checkbox">
                             <svg class="rewiew-form-own-checkbox-icon">
-                                <use href="./images/icons.svg#icon-property" width="16" height="16"></use>
+                                <use href="./images/icons.svg#icon-checkbox" width="10" height="8"></use>
                             </svg>
                         </span>
 
                         I accept the terms and conditions of the <a class="privacy-policy-link accent-color"
-                            href="">Privacy
-                            Policy</a>
+                            href="">Privacy Policy</a>
                     </label>
                 </div>
                 <button class="rewiew-form-button" type="submit">Send</button>
