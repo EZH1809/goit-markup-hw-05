@@ -481,9 +481,10 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 16px;
 }
+
 .subscribe-box-input {
   width: 264px;
   height: 40px;
@@ -493,13 +494,13 @@ body {
   letter-spacing: 0.04em;
   padding-left: 16px;
   border-radius: 4px;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  color: #ffffff;
+  color: #fff;
 }
 .subscribe-box-input::placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 .subscribe-btn {
   display: flex;
@@ -511,7 +512,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -591,7 +592,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   color: #2e2f42;
@@ -606,7 +607,7 @@ body {
   display: block;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
   color: #8e8f99;
@@ -648,7 +649,7 @@ body {
   height: 120px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.04px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -671,7 +672,7 @@ body {
 .rewiew-form-checkbox-lable {
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.17em; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -702,7 +703,7 @@ body {
 .rewiew-form-button {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   border: 4px;
