@@ -713,7 +713,7 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rewiew-form-checkbox:checked
-  + .rewiew-form-checkbox-label
+  + .rewiew-form-checkbox-lable
   .rewiew-form-own-checkbox {
   border: none;
   background-color: #404bbf;
@@ -721,7 +721,7 @@ body {
   fill: #f4f4fd;
 }
 .rewiew-form-checkbox:focus
-  .rewiew-form-checkbox-lable
+  .rewiew-form-checkbox-label
   .rewiew-form-own-checkbox {
   outline: 2px solid #4d5ae5;
 }
